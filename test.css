@@ -1,0 +1,39 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Verdana, Helvetica, tahoma, sans-serif;
+    line-height: 16px;
+}
+
+div .active {
+    animation: imagein 2s forwards;
+}
+
+@-webkit-keyframes imagein {
+    from {
+        transform: translateX(0);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.hinhquangcao {
+    width: 180px;
+}
+
+.color-text {
+    color: #035096;
+}
+
+.row2 {
+    margin-right: 0 !important;
+}
